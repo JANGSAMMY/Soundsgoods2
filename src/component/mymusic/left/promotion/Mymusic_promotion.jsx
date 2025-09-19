@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaAngleRight } from 'react-icons/fa6';
 import Mymusic_PromotionList from './Mymusic_PromotionList';
+import './style.scss';
 
 const Mymusic_promotion = () => {
     return (

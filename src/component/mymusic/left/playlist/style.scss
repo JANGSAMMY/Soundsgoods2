@@ -1,0 +1,99 @@
+@use '../../../../styled/utils' as *;
+
+// 플레이리스트
+.Mymusic_left_playlist {
+    margin-top: vw(20);
+    .left_playlist {
+        width: vw(920);
+        height: vw(195);
+        padding: vw(40) vw(60);
+        border-radius: vw(20);
+        background: rgba(255, 255, 255, 0.6);
+        box-shadow: 0 0 vw(4) 0 rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(25px);
+        display: flex;
+        flex-direction: column;
+
+        .left_playlisttitle {
+            width: vw(880);
+            display: flex;
+            justify-content: space-between;
+            h2 {
+                font-size: vw(18);
+            }
+        }
+        .left_playlistmusic2 {
+            margin-top: vw(20);
+            margin-bottom: vw(20);
+            position: relative;
+            width: vw(880);
+            height: vw(151);
+            display: flex;
+            justify-content: space-between;
+            right: 0;
+
+            .playlistItem {
+                width: vw(121);
+                height: vw(151);
+
+                .playlistimg {
+                    align-items: center;
+                    margin-bottom: vw;
+                    width: vw(120);
+
+                    height: vw(120);
+                    img {
+                        width: vw(120);
+                        height: vw(120);
+                        border-radius: vw(5);
+                    }
+                    h2 {
+                        font-size: vw(14);
+                        font-size: 600;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+//추천플리
+.Recomnedplaylist {
+    margin-top: vw(20);
+    .recommendList {
+        width: vw(920);
+        height: vw(204);
+        padding: vw(40) vw(60);
+        border-radius: vw(20);
+        background: rgba(255, 255, 255, 0.6);
+        box-shadow: 0 0 vw(4) 0 rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(25px);
+        .Recomnedplaylist1 {
+            width: vw(880);
+            height: vw(160);
+            display: flex;
+            justify-content: space-between;
+
+            .recomendlistItem {
+                width: vw(160);
+                height: vw(160);
+
+                .recomendlistimg img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: block;
+                }
+            }
+        }
+        .recommnedlisttitle {
+            width: vw(880);
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            h2 {
+                font-size: vw(18);
+            }
+        }
+    }
+}

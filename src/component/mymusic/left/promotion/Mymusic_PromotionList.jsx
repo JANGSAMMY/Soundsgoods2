@@ -1,5 +1,6 @@
 import React from 'react';
 import Mymusic_promotion_Item from './Mymusic_promotion_Item';
+import './style.scss';
 
 const Mymusic_PromotionList = () => {
     return (
